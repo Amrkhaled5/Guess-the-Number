@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guess-Game</title>
+    <link rel="stylesheet" href="/stylee.css" />
+  </head>
+  <body>
+    <div class="hideWindow hidden"></div>
+    <button class="btnHelp">Help ?</button>
+    <div class="Box hidden">
+      <button class="close">&times;</button>
+      <h1 class="boxTitle">How To Play</h1>
+      <p class="boxText">
+        You chooce number between 1 and 20.<br />
+        You have a maximum of 10 guesses.<br />
+        If you guess correctly within these tries, you win. <br />If you run out
+        of attempts, the game ends and you'll be shown the correct number.
+      </p>
+    </div>
+    <div class="topSec">
+      <h1 class="Title">Guess The Number</h1>
+      <button class="Again">play Again</button>
+      <div class="qu">?</div>
+    </div>
+    <div class="buttomSec">
+      <div class="leftSec">
+        <div class="in">
+          <label for="myGuesss" class="la">Enter Your Guess Here</label>
+          <input id="myGuesss" type="number" class="myGuess" />
+        </div>
+        <button class="check">Check!</button>
+      </div>
+      <div class="rightSec">
+        <div class="State">Start guessing.....</div>
+        <div class="nums">
+          <div class="Score">
+            💯 Your Score: <span class="scoreNumber">0</span>
+          </div>
+          <div class="bestScore">
+            🥇 Best Score: <span class="bestScoreNumber">0</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="/script.js"></script>
+  </body>
+</html>
