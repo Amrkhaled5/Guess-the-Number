@@ -29,10 +29,6 @@ An interactive and responsive number guessing game built using **HTML**, **CSS**
 7. Click the **"Help ?"** button for instructions.
 
 
-## 📸 Screenshots
-
-![Screenshot of game interface](screenshot.png) <!-- Replace with your own image if available -->
-
 ## 📦 Setup & Usage
 
 To run the project locally:
@@ -55,7 +51,7 @@ This project is open source and free to use.
 
 ---
 
-> Made with 💡 by [Your Name]
+> Made with 💡 by [Amr Khaled]
 
 
 
